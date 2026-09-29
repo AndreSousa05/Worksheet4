@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FleetCheck – Build Systems Lab
 
 This project is intentionally incomplete. Follow the worksheet in the order given.
@@ -23,6 +22,10 @@ Question: Why is this a better failure than the one from Step 1?
 
 Evidence 4: Explain what the Shade plugin changed compared with the default JAR.
    without the plugin, mvn produces only fleetcheck-1.0.0.jar, with has no Main-Class, with the plugin, the build produces an executable, self-contained JAR, fleetcheck-1.0.0-all.jar
-=======
-# Worksheet4
->>>>>>> be5a16de8b09eaa189db4230886d642ae070b327
+
+Question: Which hidden environmental assumption did the wrapper remove?
+    the wrapper remove the assumption that the maven is installed on the machine
+
+Evidence 7: Why does the SBOM contain components that you did not explicitly type in the original dependencies section?
+    Maven resolve transitive dependencies, when we declare a direct dependency, that library depends on oter libraries to function and Maven automatically downloads them
+
