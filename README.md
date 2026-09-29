@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FleetCheck – Build Systems Lab
 
 This project is intentionally incomplete. Follow the worksheet in the order given.
@@ -22,3 +23,6 @@ Question: Why is this a better failure than the one from Step 1?
 
 Evidence 4: Explain what the Shade plugin changed compared with the default JAR.
    without the plugin, mvn produces only fleetcheck-1.0.0.jar, with has no Main-Class, with the plugin, the build produces an executable, self-contained JAR, fleetcheck-1.0.0-all.jar
+=======
+# Worksheet4
+>>>>>>> be5a16de8b09eaa189db4230886d642ae070b327
